@@ -24,6 +24,7 @@
     <ProjectGuid>{c696bbbc-4650-40fd-b020-dc314767919f}</ProjectGuid>
     <RootNamespace>StreamReaderandWriter0141</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ioFile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="StreamReaderandWriter_0141.cpp" />
+    <ClCompile Include="ioFile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
